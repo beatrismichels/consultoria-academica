@@ -148,7 +148,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1507738978512-35798112892c?q=80&w=2070&auto=format&fit=crop')",
+              "url('https://images.unsplash.com/photo-1779200534359-653759508024?q=80&w=2070&auto=format&fit=crop')",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/65 to-black/80" />
