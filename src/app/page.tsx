@@ -148,10 +148,10 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=2073&auto=format&fit=crop')",
+              "url('https://images.unsplash.com/photo-1507738978512-35798112892c?q=80&w=2070&auto=format&fit=crop')",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/75" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/65 to-black/80" />
         </div>
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <p className="animate-fade-in mb-6 text-sm tracking-[0.3em] uppercase text-white/80">
