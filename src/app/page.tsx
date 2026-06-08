@@ -148,19 +148,19 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=2128&auto=format&fit=crop')",
+              "url('https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=2073&auto=format&fit=crop')",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/45 to-black/70" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/75" />
         </div>
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <p className="animate-fade-in mb-6 text-sm tracking-[0.3em] uppercase text-white/80">
-            Consultoria & Mentoria Acadêmica
+            Assessoria Acadêmica
           </p>
           <h1 className="animate-fade-in-up font-serif text-4xl leading-tight font-light text-white md:text-6xl lg:text-7xl">
-            Transformando ideias em
+            Escrita qualificada para
             <br />
-            <em className="text-accent-light">excelência acadêmica</em>
+            <em className="text-accent-light">pesquisas relevantes</em>
           </h1>
           <p className="animate-fade-in-up animate-delay-400 mt-8 max-w-2xl mx-auto text-lg leading-relaxed text-white/85 md:text-xl">
             Apresentações em PowerPoint memoráveis e revisão criteriosa de
@@ -212,7 +212,7 @@ export default function Home() {
             <div className="mx-auto mt-10 max-w-2xl space-y-6 text-lg leading-relaxed text-warm-gray">
               <p>
                 Com anos de experiência no universo acadêmico, ofereço uma
-                consultoria que vai além do convencional — com enfoque em
+                assessoria que vai além do convencional — com enfoque em
                 apresentações em PowerPoint e na revisão de dissertações e
                 teses. Minha abordagem une rigor metodológico, sensibilidade
                 textual e um profundo respeito pela singularidade de cada
@@ -234,7 +234,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-fixed bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1474932430478-367dbb6832c1?q=80&w=2128&auto=format&fit=crop')",
+              "url('https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=2070&auto=format&fit=crop')",
           }}
         >
           <div className="absolute inset-0 bg-primary/30" />
@@ -378,10 +378,10 @@ export default function Home() {
           <div className="flex flex-col items-center gap-8 text-center md:flex-row md:justify-between md:text-left">
             <div>
               <p className="font-serif text-xl tracking-[0.15em] uppercase text-primary">
-                Beatris Michels
+                Michels & Co. Acadêmico
               </p>
               <p className="mt-2 text-sm text-warm-gray">
-                Consultoria & Mentoria Acadêmica
+                Assessoria Acadêmica
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 text-sm text-warm-gray md:items-end">
@@ -394,8 +394,8 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 border-t border-primary/10 pt-8 text-center text-xs text-warm-gray/60">
-            &copy; {new Date().getFullYear()} Beatris Michels. Todos os direitos
-            reservados.
+            &copy; {new Date().getFullYear()} Michels & Co. Acadêmico. Todos os
+            direitos reservados.
           </div>
         </div>
       </footer>

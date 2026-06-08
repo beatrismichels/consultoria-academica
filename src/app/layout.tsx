@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Beatris Michels | Consultoria & Mentoria Acadêmica",
+  title: "Michels & Co. Acadêmico | Assessoria Acadêmica",
   description:
-    "Orientação metodológica, revisão textual e suporte especializado para sua jornada acadêmica. Teses, dissertações e artigos científicos com excelência.",
+    "Escrita qualificada para pesquisas relevantes. Assessoria acadêmica com enfoque em apresentações em PowerPoint e revisão de dissertações e teses.",
 };
 
 export default function RootLayout({

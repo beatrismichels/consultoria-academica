@@ -64,7 +64,7 @@ export default function Header() {
               scrolled ? "text-primary" : "text-white"
             }`}
           >
-            Beatris Michels
+            Michels & Co. Acadêmico
           </a>
 
           <a
