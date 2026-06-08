@@ -247,8 +247,10 @@ export default function Home() {
               <p className="mb-4 text-sm tracking-[0.3em] uppercase text-accent">
                 Serviços
               </p>
-              <h2 className="font-serif text-3xl font-light text-primary md:text-4xl lg:text-5xl">
-                Como posso ajudá-lo
+              <h2 className="font-serif text-3xl leading-snug font-light text-primary md:text-4xl lg:text-5xl">
+                Como posso
+                <br />
+                <em className="text-accent">ajudá-lo</em>
               </h2>
             </div>
           </ScrollReveal>
@@ -281,8 +283,10 @@ export default function Home() {
               <p className="mb-4 text-sm tracking-[0.3em] uppercase text-accent-light">
                 Processo
               </p>
-              <h2 className="font-serif text-3xl font-light md:text-4xl lg:text-5xl">
-                Uma jornada clara e estruturada
+              <h2 className="font-serif text-3xl leading-snug font-light md:text-4xl lg:text-5xl">
+                Uma jornada
+                <br />
+                <em className="text-accent-light">clara e estruturada</em>
               </h2>
             </div>
           </ScrollReveal>
@@ -315,8 +319,10 @@ export default function Home() {
               <p className="mb-4 text-sm tracking-[0.3em] uppercase text-accent">
                 Depoimentos
               </p>
-              <h2 className="font-serif text-3xl font-light text-primary md:text-4xl lg:text-5xl">
-                O que dizem nossos alunos
+              <h2 className="font-serif text-3xl leading-snug font-light text-primary md:text-4xl lg:text-5xl">
+                O que dizem
+                <br />
+                <em className="text-accent">nossos alunos</em>
               </h2>
             </div>
           </ScrollReveal>
@@ -354,8 +360,10 @@ export default function Home() {
               <p className="mb-4 text-sm tracking-[0.3em] uppercase text-accent">
                 Contato
               </p>
-              <h2 className="font-serif text-3xl font-light text-primary md:text-4xl lg:text-5xl">
-                Vamos conversar sobre seu projeto
+              <h2 className="font-serif text-3xl leading-snug font-light text-primary md:text-4xl lg:text-5xl">
+                Vamos conversar
+                <br />
+                <em className="text-accent">sobre o seu projeto</em>
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-warm-gray">
                 Entre em contato para uma consulta inicial gratuita. Terei prazer
