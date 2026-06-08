@@ -204,24 +204,22 @@ export default function Home() {
           </ScrollReveal>
           <ScrollReveal delay={0.15}>
             <h2 className="font-serif text-3xl leading-snug font-light text-primary md:text-4xl lg:text-5xl">
-              Um compromisso com a excelência na produção do conhecimento
-              acadêmico.
+              Precisão na escrita.
+              <br />
+              <em className="text-accent">Credibilidade na pesquisa.</em>
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={0.3}>
             <div className="mx-auto mt-10 max-w-2xl space-y-6 text-lg leading-relaxed text-warm-gray">
               <p>
-                Com anos de experiência no universo acadêmico, ofereço uma
-                assessoria que vai além do convencional — com enfoque em
-                apresentações em PowerPoint e na revisão de dissertações e
-                teses. Minha abordagem une rigor metodológico, sensibilidade
-                textual e um profundo respeito pela singularidade de cada
-                pesquisador.
+                Há mais de 7 anos, atuo na produção e no aprimoramento de
+                trabalhos acadêmicos com rigor metodológico, sensibilidade
+                textual e respeito à singularidade de cada pesquisador.
               </p>
               <p>
-                Acredito que todo trabalho acadêmico carrega uma história única
-                — e minha missão é ajudá-lo a contá-la com clareza, precisão e
-                impacto.
+                Meu compromisso é garantir que suas ideias sejam apresentadas
+                com clareza, consistência e excelência — da estrutura à versão
+                final.
               </p>
             </div>
           </ScrollReveal>
@@ -234,7 +232,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-fixed bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=2070&auto=format&fit=crop')",
+              "url('https://images.unsplash.com/photo-1741707596433-06c5531473ec?q=80&w=2070&auto=format&fit=crop')",
           }}
         >
           <div className="absolute inset-0 bg-primary/30" />
