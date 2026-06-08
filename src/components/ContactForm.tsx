@@ -74,10 +74,11 @@ export default function ContactForm() {
           className="w-full border-b border-primary/20 bg-transparent py-3 text-primary outline-none transition-colors focus:border-accent"
         >
           <option value="">Selecione...</option>
-          <option value="tese">Tese de Doutorado</option>
-          <option value="dissertacao">Dissertação de Mestrado</option>
-          <option value="artigo">Artigo Científico</option>
+          <option value="apresentacao">Apresentação em PowerPoint</option>
+          <option value="revisao-tese">Revisão de Tese</option>
+          <option value="revisao-dissertacao">Revisão de Dissertação</option>
           <option value="tcc">TCC / Monografia</option>
+          <option value="artigo">Artigo Científico</option>
           <option value="outro">Outro</option>
         </select>
       </div>

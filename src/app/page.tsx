@@ -4,9 +4,9 @@ import ContactForm from "@/components/ContactForm";
 
 const services = [
   {
-    title: "Orientação Metodológica",
+    title: "Apresentações em PowerPoint",
     description:
-      "Acompanhamento especializado na definição de metodologias de pesquisa, estruturação de projetos e desenvolvimento de argumentação científica sólida.",
+      "Criação e aprimoramento de slides elegantes e impactantes para defesas, bancas e congressos, com design profissional, hierarquia visual clara e uma narrativa que valoriza a sua pesquisa.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -19,15 +19,15 @@ const services = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+          d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.25 2.25 3-3"
         />
       </svg>
     ),
   },
   {
-    title: "Revisão & Estruturação Textual",
+    title: "Revisão de Dissertações e Teses",
     description:
-      "Revisão aprofundada de conteúdo acadêmico, adequação às normas ABNT, APA e Vancouver, e aprimoramento da coesão e coerência textual.",
+      "Revisão minuciosa de dissertações e teses: clareza argumentativa, coesão, correção gramatical e adequação às normas ABNT, APA e Vancouver, preservando a sua voz autoral.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -46,9 +46,30 @@ const services = [
     ),
   },
   {
-    title: "Mentoria Acadêmica",
+    title: "Estruturação & Formatação",
     description:
-      "Acompanhamento personalizado durante toda a jornada acadêmica, desde a concepção do tema até a defesa final, com reuniões regulares e feedback contínuo.",
+      "Organização da estrutura do trabalho, padronização de citações, sumário, tabelas e referências, com formatação alinhada às exigências da sua instituição.",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1}
+        stroke="currentColor"
+        className="h-10 w-10"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Preparação para a Defesa",
+    description:
+      "Orientação para apresentar seu trabalho com segurança: roteiro da fala, ensaio da defesa e antecipação das possíveis perguntas da banca.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -62,27 +83,6 @@ const services = [
           strokeLinecap="round"
           strokeLinejoin="round"
           d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
-        />
-      </svg>
-    ),
-  },
-  {
-    title: "Suporte à Pesquisa",
-    description:
-      "Auxílio na busca bibliográfica, análise de dados, elaboração de referencial teórico e construção de frameworks conceituais para sua investigação.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1}
-        stroke="currentColor"
-        className="h-10 w-10"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
         />
       </svg>
     ),
@@ -148,10 +148,10 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2090&auto=format&fit=crop')",
+              "url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=2128&auto=format&fit=crop')",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/45 to-black/70" />
         </div>
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <p className="animate-fade-in mb-6 text-sm tracking-[0.3em] uppercase text-white/80">
@@ -163,8 +163,9 @@ export default function Home() {
             <em className="text-accent-light">excelência acadêmica</em>
           </h1>
           <p className="animate-fade-in-up animate-delay-400 mt-8 max-w-2xl mx-auto text-lg leading-relaxed text-white/85 md:text-xl">
-            Orientação especializada para teses, dissertações e artigos
-            científicos com o rigor e a dedicação que seu trabalho merece.
+            Apresentações em PowerPoint memoráveis e revisão criteriosa de
+            dissertações e teses, com o rigor e o cuidado que a sua defesa
+            merece.
           </p>
           <div className="animate-fade-in-up animate-delay-600 mt-12">
             <a
@@ -211,9 +212,11 @@ export default function Home() {
             <div className="mx-auto mt-10 max-w-2xl space-y-6 text-lg leading-relaxed text-warm-gray">
               <p>
                 Com anos de experiência no universo acadêmico, ofereço uma
-                consultoria que vai além do convencional. Minha abordagem une
-                rigor metodológico, sensibilidade textual e um profundo respeito
-                pela singularidade de cada pesquisador.
+                consultoria que vai além do convencional — com enfoque em
+                apresentações em PowerPoint e na revisão de dissertações e
+                teses. Minha abordagem une rigor metodológico, sensibilidade
+                textual e um profundo respeito pela singularidade de cada
+                pesquisador.
               </p>
               <p>
                 Acredito que todo trabalho acadêmico carrega uma história única
@@ -231,10 +234,10 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-fixed bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=2128&auto=format&fit=crop')",
+              "url('https://images.unsplash.com/photo-1474932430478-367dbb6832c1?q=80&w=2128&auto=format&fit=crop')",
           }}
         >
-          <div className="absolute inset-0 bg-primary/20" />
+          <div className="absolute inset-0 bg-primary/30" />
         </div>
       </div>
 
